@@ -1,0 +1,71 @@
+.feature-wrapper{
+    background: url(/assets/images/circle-spiral-background.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 2em 1em;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+.feature-wrapper .mic-container{
+    padding: 0 15px;
+}
+
+.feature-wrapper .feature-cont{
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+.feature-wrapper .feature-cont .feature-col{
+    list-style-type: none;
+    width: 33.33%;
+    float: left;
+    padding: 2em 5px 0px 5px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.feature-col .feature-title{
+    display: inline-block;
+    color: #151515;
+    font-weight: 400;
+    line-height: 1.1em;
+    font-size: 3.3em;
+    padding: 10px 18px .6em 0;
+    position: relative;
+}
+
+.feature-col .feature-title:after {
+    content: " ";  
+    height: 18px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 18px;
+    border: 3px solid #ff6633;
+    border-radius: 50%;
+}
+
+.feature-col .feature-desc, .feature-col .feature-imp{
+    width: 100%;
+    font-size: 1.111em;
+    line-height: 1.6em;
+}
+
+.feature-col .feature-imp{
+    color: #F16F21;
+}
+
+@media (max-width: 992px){
+    .feature-wrapper{
+        background-repeat: repeat;
+    }
+
+    .feature-wrapper .feature-cont .feature-col{
+        float: none;
+        width: 100%;
+    }
+}

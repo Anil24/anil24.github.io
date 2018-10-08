@@ -1,0 +1,191 @@
+<div class="aboutpd-wrapper">
+  <div class="mic-container">
+    <mat-accordion>
+      <mat-expansion-panel (opened)="setaboutpdStep(0,true)" (closed)="setaboutpdStep(0,false)" hideToggle="true">
+        <mat-expansion-panel-header [collapsedHeight]="'75px'">
+          <mat-panel-title>
+            <i class="fa fa-plus aboutpd-icon" aria-hidden="true" *ngIf="!panelOpenState[0]"></i>
+            <i class="fa fa-minus aboutpd-icon" aria-hidden="true" *ngIf="panelOpenState[0]"></i>
+            What is Health Insurance?
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="aboutpd-row">
+          <div class="mic-col-12">
+            <div class="aboutpd-block">
+              <div class="sec-desc">
+                Health Insurance, also known as Mediclaim in India, is a form of insurance which covers the expenses incurred on medical
+                treatment and hospitalisation. It covers the policyholder against any financial constraints arising from
+                medical emergencies. In case of sudden hospitalisation, illness or accident, health insurance takes care
+                of the expenses on medicines, oxygen, ambulance, blood, hospital room, various medical tests and almost all
+                other costs involved. By paying a small premium every year, you can ensure that any big medical expenses,
+                if incurred, will not burn a hole in your pocket. The plan can be taken for an individual or for your family
+                as a Family Floater Health Insurance Plan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="setaboutpdStep(1,true)" (closed)="setaboutpdStep(1,false)" hideToggle="true">
+        <mat-expansion-panel-header [collapsedHeight]="'75px'">
+          <mat-panel-title>
+            <i class="fa fa-plus aboutpd-icon" aria-hidden="true" *ngIf="!panelOpenState[1]"></i>
+            <i class="fa fa-minus aboutpd-icon" aria-hidden="true" *ngIf="panelOpenState[1]"></i>
+            Major Benefits in a Health Insurance Policy
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <!-- /first row -->
+        <div class="aboutpd-row">
+          <!-- first col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Cashless facility</h3>
+              <div class="sec-desc">
+                Each health insurance company ties up with a large number of hospitals to provide cashless health insurance facility. If
+                you are admitted to any of the network hospitals, you would not have to pay the expenses from your pocket.
+                In case the hospital is not part of the network, you will have to pay the hospital and the insurance company
+                will reimburse the costs to you later.
+              </div>
+            </div>
+          </div>
+          <!-- /first col -->
+
+          <!-- second col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Pre-hospitalisation expenses</h3>
+              <div class="sec-desc">
+                In case you have incurred treatment costs for the ailment for which you later get admitted to a hospital, the insurance company
+                will bear those costs also. Usually the payout is for costs incurred between 30 to 60 days before hospitalisation.
+              </div>
+            </div>
+          </div>
+          <!-- /second col -->
+
+          <!-- third col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Hospitalisation Expenses</h3>
+              <div class="sec-desc">Costs incurred if a policyholder is admitted to the hospital for more than 24 hours are covered by the health
+                insurance plan.
+              </div>
+            </div>
+          </div>
+          <!-- /third col -->
+        </div>
+        <!-- /first row -->
+
+        <!-- second row -->
+        <div class="aboutpd-row">
+          <!-- first col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Post-hospitalisation expenses</h3>
+              <div class="sec-desc">
+                Even after you are discharged from the hospital, you will incur costs during the recovery period. Most mediclaim policies
+                will cover the expenses incurred 60 to 90 days after hospitalisation.
+              </div>
+            </div>
+          </div>
+          <!-- /first col -->
+
+          <!-- second col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Day Care Procedure Expenses</h3>
+              <div class="sec-desc">
+                Due to advancement in technology some of the treatments no more require a 24 hours of hospitalisation. Your health insurance
+                policy will cover the costs incurred for these treatments also.
+              </div>
+            </div>
+          </div>
+          <!-- /second col -->
+
+          <!-- third col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Ambulance Charges</h3>
+              <div class="sec-desc">
+                In most cases the ambulance charges are taken up by the policy and the policy holder usually doesn't have to bear the burden
+                of the same.
+              </div>
+            </div>
+          </div>
+          <!-- /third col -->
+        </div>
+        <!-- /second row -->
+
+        <!-- third row -->
+        <div class="aboutpd-row">
+          <!-- first col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Cover for Pre-existing Diseases</h3>
+              <div class="sec-desc">
+                Health insurance policies have a facility of covering pre-existing diseases after 3 or 4 years of continuously renewing the
+                policy, i.e. if someone has diabetes, then after completion of 3 or 4 years of continuous renewal with the
+                same insurer (depending on the plan offered and his age), any hospitalisation due to diabetes will also be
+                covered..
+              </div>
+            </div>
+          </div>
+          <!-- /first col -->
+
+          <!-- second col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Tax Benefits</h3>
+              <div class="sec-desc">
+                The premiums paid for a Health Insurance Policy are exempted for Under Section 80D of the Income Tax Act. Income tax benefit
+                is provided to the customer for the premium amount till a maximum of Rs. 15,000 for regular and Rs. 20,000
+                for senior citizen respectively.
+              </div>
+            </div>
+          </div>
+          <!-- /second col -->
+
+          <!-- third col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">No-Claim Bonus</h3>
+              <div class="sec-desc">
+                If there has been no claim in the previous year, a benefit is passed on to the policyholder, either by reducing the premium
+                or by increasing the sum assured by a certain percentage of the existing premium.
+              </div>
+            </div>
+          </div>
+          <!-- /third col -->
+        </div>
+        <!-- /third row -->
+
+        <!-- third row -->
+        <div class="aboutpd-row">
+          <!-- first col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Health Check-Up</h3>
+              <div class="sec-desc">
+                Some health insurance policies have a facility of free health check-up for the well being of the individual if there is no
+                claim made for certain number of years.
+              </div>
+            </div>
+          </div>
+          <!-- /first col -->
+
+          <!-- second col -->
+          <div class="mic-col-4">
+            <div class="aboutpd-block">
+              <h3 class="sec-title">Organ Donor Expenses</h3>
+              <div class="sec-desc">
+                The medical expenses incurred in harvesting the organ for a transplant is paid by the policy.
+              </div>
+            </div>
+          </div>
+          <!-- /second col -->
+        </div>
+        <!-- /fourth row -->
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+.pdcontent-wrapper{
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.pdcontent-wrapper .pdcontent-img{
+    display: block;
+    max-width: 100%;
+}
+
+.pdcontent .title{
+    font-size: 30px;
+    color: #5a5a5a;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+    
+.pdcontent .desc{
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 22px;
+}
+
+.pdcontent .desc span{
+    color: #ff6102;
+}
+
+.pdcontent .desc ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 28px;
+    position: relative;
+}
+
+.pdcontent .desc ul li{
+    padding-top: 10px;
+}
+
+.pdcontent .desc ul li::before{
+    content: "\f198";
+    position: absolute;
+    left: 0px;
+    color: #2bbd1c;;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 18px; 
+}

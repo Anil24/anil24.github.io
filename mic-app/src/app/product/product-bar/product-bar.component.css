@@ -1,0 +1,104 @@
+.pdbar-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.pdbar-cont .pdbar{
+    display: table;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.pdbar-cont .pdbar li{
+    list-style-type: none;
+    border-right: 1px solid #e9e9e9;
+    display: table-cell;
+    background: #f7f7f7;
+}
+
+.pdbar-cont .pdbar li:hover{
+    background: #ffffff;
+}
+
+.pdbar-cont .pdbar li a{
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: #3a3a3a;
+    position: relative;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    padding: 10px 0;
+    display: block;
+    border: 0;
+}
+
+.mic-health-icon, .mic-car-icon, .mic-two-wheeler-icon, .mic-term-icon, .mic-endowment-icon, .mic-money-icon, .mic-child-icon, .mic-pension-icon, .mic-travel-icon {
+    background-image: url(/assets/images/services_icon.png);
+    background-repeat: no-repeat;
+    height: 42px;
+    margin: 0 auto;
+    width: 65px;
+}
+
+.mic-health-icon {
+    background-position: 11px 3px;
+}
+.mic-car-icon {
+    background-position: 11px -48px;
+}
+.mic-two-wheeler-icon {
+    background-position: 7px -100px;
+}
+.mic-term-icon {
+    background-position: 10px -157px;
+}
+.mic-endowment-icon {
+    background-position: -3px -218px;
+}
+.mic-money-icon {
+    background-position: 7px -272px;
+}
+.mic-child-icon {
+    background-position: -2px -332px;
+}
+.mic-pension-icon {
+    background-position: 2px -388px;
+}
+.mic-travel-icon {
+    background-position: 0px -449px;
+}
+
+.pdbar-cont .pdbar li:hover .mic-health-icon{
+	background-position: -73px 3px;
+}
+.pdbar-cont .pdbar li:hover .mic-car-icon{
+	background-position: -72px -48px;
+}
+.pdbar-cont .pdbar li:hover .mic-two-wheeler-icon{
+	background-position: -73px -100px;
+}
+.pdbar-cont .pdbar li:hover .mic-term-icon{
+	background-position: -78px -157px;
+}
+.pdbar-cont .pdbar li:hover .mic-endowment-icon{
+	background-position: -78px -219px;
+}
+.pdbar-cont .pdbar li:hover .mic-money-icon{
+	background-position: -79px -272px;
+}
+.pdbar-cont .pdbar li:hover .mic-child-icon{
+	background-position: -77px -333px;
+}
+.pdbar-cont .pdbar li:hover .mic-pension-icon{
+	background-position: -80px -388px;
+}
+.pdbar-cont .pdbar li:hover .mic-travel-icon{
+	background-position: -75px -449px;
+}
+
+.pdbar .product-label{
+    font-size:13px;
+}

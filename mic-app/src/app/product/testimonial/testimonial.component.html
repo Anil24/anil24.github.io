@@ -1,0 +1,14 @@
+<div class="pdtestimonial-container">
+  <div class="mic-container">
+    <div class="mic-col-12">
+      <swiper [config]="testimonialSwiper">
+        <div class="swiper-wrapper pdtestimonial-wrapper">
+          <div class="swiper-slide pdtestimonial-slide" *ngFor="let author of authors">
+            <h2>{{author.quote}}</h2>
+            <div class="pdauthor">{{author.name}}</div>
+          </div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</div>

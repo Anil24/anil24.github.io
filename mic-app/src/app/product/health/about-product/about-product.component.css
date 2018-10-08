@@ -1,0 +1,78 @@
+ .aboutpd-wrapper .mic-container{
+    padding: 0 15px;
+}
+
+.mat-expansion-panel-spacing {
+    margin: 0;
+}
+
+.aboutpd-wrapper .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled=true]):hover {
+    background: #ffffffff;
+}
+
+.aboutpd-wrapper .mat-expansion-panel-header{
+    font-family: "Open Sans", Arial, serif;
+    position: relative; 
+}
+
+.aboutpd-wrapper .mat-expansion-panel:not([class*=mat-elevation-z]) {
+    border-bottom: 1px solid #d6dde3;
+    box-shadow: none;   
+}
+
+.aboutpd-wrapper .mat-expansion-panel:last-child:not([class*=mat-elevation-z]) {
+    border-bottom: none;
+}
+
+.aboutpd-wrapper .mat-expansion-panel-header-title{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    color: #5a5a5a;
+    padding: .5em .5em .5em .7em;
+}
+
+
+.aboutpd-wrapper .aboutpd-icon{
+    position: absolute;
+    left: 0;
+    border: 1px solid #48afdb;
+    font-size: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: #cac6c6;
+    line-height: 28px;
+    text-align: center;
+}
+
+.aboutpd-wrapper .aboutpd-block{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.aboutpd-wrapper .aboutpd-row{
+    font-family: "Open Sans", Arial, serif;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+.aboutpd-row .sec-title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #5a5a5a;
+    outline: none;
+    margin: 0 0 10px;
+}
+
+.aboutpd-row .sec-desc{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media (max-width: 992px){
+    .aboutpd-wrapper .aboutpd-row {
+        padding: 0 18px;
+    }
+}

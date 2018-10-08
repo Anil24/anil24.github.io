@@ -1,0 +1,107 @@
+.pdblog-wrapper{
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+.pdblog-wrapper .mic-col-4{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.pdblog-wrapper .pdblog-title{
+    font-size: 30px;
+    color: #595a5a;
+    font-weight: 400;
+    border-top: 8px solid #2bbd1c;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.pdblog-wrapper .pdblog-subtitle{
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.pdblog-wrapper .pdblog-block{
+    float: left;
+    min-height: 236px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 70%;
+}
+
+.pdblog-block .pdblog-img img{
+    display: block;
+    float: left;
+    border: 1px solid #cacaca;
+    max-width: 100%;
+    margin: 16px 12px 10px 1px;
+    padding: 1px;
+    width: 100%;
+}
+
+.pdblog-block .pdblog-desc{
+    bottom: 0px;
+    color: #000000;
+    padding: 5px 0px 0 0;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.pdblog-wrapper .pdblog-more-btn{
+    margin-top: 40px;
+    width: 100%;
+    float: left;
+}
+
+.pdblog-wrapper .pdblog-more-btn a{
+    text-align: left;
+    color: #2ca3ef;
+    font-size: 17px;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 992px){
+    .pdblog-wrapper .mic-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pdblog-wrapper .pdblog-block{
+        min-height: 250px;
+        max-width: 50%;
+    }
+
+    .pdblog-wrapper a:nth-child(even) .pdblog-block{
+        padding-left: 10px
+    }
+
+    .pdblog-wrapper a:nth-child(odd) .pdblog-block {
+        padding-right: 10px
+    }
+        
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .pdblog-wrapper .pdblog-block{
+        min-height: 256px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .pdblog-wrapper .mic-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pdblog-wrapper .pdblog-block{
+        max-width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important; 
+    }
+}

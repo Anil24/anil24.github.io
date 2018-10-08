@@ -1,0 +1,132 @@
+.footer-wrapper {
+    display: flex;
+    width: 100%;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    background-color: #E7E7E7;
+}
+
+.footer-wrapper .mic-container{
+    padding: 0 20px;
+}
+
+.footer-wrapper .nav-col{
+    width: 23%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    float: left;
+    line-height: 1.7;
+}
+
+.footer-wrapper .nav-col:last-child{
+    margin-right: 0px;
+}
+
+.cat-cont .cat-label{
+    font-family: "Open Sans", Arial, serif;
+    display: block;
+    padding-bottom: 10px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 1.1;
+    border-bottom: 1px solid #d6d6d6;   
+}
+
+.cat-list{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.cat-list li{
+    list-style-type: none;
+}
+
+.cat-list li a {
+    display: block;
+    font-size: 13px;
+    padding: 2px 0 5px 20px;
+    font-weight: normal;
+    border-bottom: 1px solid #d6d6d6;
+    color: #ff6102;
+    text-decoration: none;
+}
+
+.cat-list li a:hover{
+    text-decoration: underline;
+}
+
+.cat-list .fwd-ic{
+    color: #979a9b;
+    float: left;
+    font-size: 10px;
+    line-height: 26px;
+    padding-left: 2px;
+}
+
+.irdai-wrapper{
+    padding-top: 20px;
+}
+
+.irdai-wrapper img{
+    border: 2px solid #b6b6b6;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2x;
+    padding: 3px 5px;
+    max-width: 100%;
+    margin: 0 0 10px;
+}
+
+.cat-cont .irdai-txt{
+    font-size: 85%;
+    color: #444;
+    line-height: 1.4762;
+}
+
+.cat-cont .irdai-txt:last-child{
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    
+    .footer-wrapper .nav-col{
+        margin-right: 2.33%;
+    }
+
+    .footer-wrapper .nav-col:nth-child(2), .footer-wrapper .nav-col:nth-child(3){
+        width: 27%;
+    }
+
+    .footer-wrapper .nav-col:nth-child(4){
+        width: 21%;
+    }
+
+    .footer-wrapper .nav-col:nth-child(1){
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .footer-wrapper .nav-col{
+        width: 47.5% !important;
+        margin-right: 2.5%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer-wrapper .nav-col{
+        width: 100% !important;
+        margin-right: 0;
+    }
+
+    .cat-list li a {
+        padding: 6px 0 7px 20px;
+    }
+
+    .cat-list .fwd-ic {
+        line-height: 34px;
+    }
+}
+
